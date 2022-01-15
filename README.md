@@ -7,6 +7,12 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## To Start
+
+    To start u just need to run docker with "docker-compose up -d" and to run down with "docker-compose down".
+    To migrate the data u just need to run the migration with "php artisan migrate" and to refresh u can use "php artisan migrate:refresh --seed" to run the seeds      
+    and the migration. 
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
